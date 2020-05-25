@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+    <string name="searchCityHint">search city</string>
+    <string name="cityFavorite1">cityFavorite1</string>
+    <string name="cityFavorite2">cityFavorite2</string>
+    <string name="cityFavorite3">cityFavorite3</string>
+    <string name="cityFavorite4">cityFavorite4</string>
+    <string name="cityFavorite5">cityFavorite5</string>
+    <string name="cityFavorite6">cityFavorite6</string>
+    <string name="cityFavorite7">cityFavorite7</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings_darkTheme">Dark Theme</string>
+    <string name="temperatureView">+16</string>
+    <string name="weather_icon">weather icon</string>
+</resources>

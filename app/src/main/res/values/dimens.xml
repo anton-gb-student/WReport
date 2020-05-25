@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="citiesFavoritesTextSize">36sp</dimen>
+    <dimen name="bigInterval">40dp</dimen>
+    <dimen name="thinInterval">6dp</dimen>
+    <dimen name="middleInterval">16dp</dimen>
+    <dimen name="textSize_Main">36</dimen>
+    <dimen name="textSize_small">24sp</dimen>
+</resources>
