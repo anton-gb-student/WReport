@@ -7,14 +7,13 @@
     android:background="@color/backgroundLight"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+    <TextView
         android:id="@+id/search_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/thinInterval"
-        android:layout_marginTop="@dimen/bigInterval"
+        android:layout_marginTop="@dimen/thinInterval"
         android:background="@color/whiteColor"
-        android:hint="@string/searchCityHint"
         android:paddingHorizontal="@dimen/thinInterval"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,9 +50,9 @@
     <LinearLayout
         android:id="@+id/citiesList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/thinInterval"
-        android:layout_marginTop="@dimen/middleInterval"
+        android:gravity="center_vertical"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,6 +114,15 @@
             android:paddingVertical="@dimen/thinInterval"
             android:text="@string/cityFavorite7"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/chooseCityBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/ok_button" />
+
     </LinearLayout>
 
 
