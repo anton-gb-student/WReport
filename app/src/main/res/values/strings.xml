@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Weather Report</string>
     <string name="searchCityHint">search city</string>
-    <string name="cityFavorite1">cityFavorite1</string>
-    <string name="cityFavorite2">cityFavorite2</string>
-    <string name="cityFavorite3">cityFavorite3</string>
-    <string name="cityFavorite4">cityFavorite4</string>
-    <string name="cityFavorite5">cityFavorite5</string>
-    <string name="cityFavorite6">cityFavorite6</string>
-    <string name="cityFavorite7">cityFavorite7</string>
+    <string name="cityFavorite1">Москва</string>
+    <string name="cityFavorite2">Санкт-Петербург</string>
+    <string name="cityFavorite3">Казань</string>
+    <string name="cityFavorite4">Нижний Новгород</string>
+    <string name="cityFavorite5">Екатеринбург</string>
+    <string name="cityFavorite6">Новосибирск</string>
+    <string name="cityFavorite7">Владивосток</string>
     <string name="air_pressure">Air Pressure</string>
     <string name="wind_speed">Wind Speed</string>
     <string name="title_activity_settings">Settings</string>
@@ -30,4 +30,5 @@
     <string name="temperatureView">+16</string>
     <string name="weather_icon">weather icon</string>
     <string name="current_city">chosenCity</string>
+    <string name="ok_button">OK</string>
 </resources>
